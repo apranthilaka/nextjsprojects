@@ -1,3 +1,3 @@
-export default function TestComp(name) {
+export default function TestComp({ name }) {
     return <div>{name}</div>;
 }
