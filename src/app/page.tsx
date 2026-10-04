@@ -69,9 +69,9 @@ export default function Home() {
         <div>
             <div className="flex h-screen w-full flex-col items-center justify-center bg-slate-50 text-center text-sm">
                 <div className="mb-2 text-lg font-medium">
-                    Clint Projects Launching Soon.
+                    Projects Launching Soon.
                 </div>
-                ⌁<div className="">Sveltekit • Shadcn • Tailwind4</div>
+                ⌁<div className="">NextJS/Sveltekit • Shadcn • Tailwind4</div>
                 <div className="">Claude • Ollama/Qwen code</div>⌁
                 <div className="text-xs text-neutral-500">
                     Status: Migrating component architecture
