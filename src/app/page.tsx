@@ -66,6 +66,24 @@ export default function Home() {
         //   </main>
         // </div>
 
-        <div>Aravinda prabath</div>
+        <div>
+            <div className="flex h-screen w-full flex-col items-center justify-center bg-slate-50 text-center text-sm">
+                <div className="mb-2 text-lg font-medium">
+                    Clint Projects Launching Soon.
+                </div>
+                ⌁<div className="">Sveltekit • Shadcn • Tailwind4</div>
+                <div className="">Claude • Ollama/Qwen code</div>⌁
+                <div className="text-xs text-neutral-500">
+                    Status: Migrating component architecture
+                </div>
+                ⌁
+                <a
+                    className="delay-00 rounded-sm border border-neutral-300 px-3 py-1 text-[12px] text-neutral-500 transition-all hover:bg-neutral-200"
+                    href="https://apranthilaka.com/"
+                >
+                    Home
+                </a>
+            </div>
+        </div>
     );
 }
