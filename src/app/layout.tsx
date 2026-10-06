@@ -31,8 +31,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-    title: 'My App',
-    description: 'My app description',
+    title: 'apranthilaka -  Design Engineer ',
+    description: 'My Dev Projects',
 };
 
 export default function RootLayout({ children }: LayoutProps<'/'>) {
