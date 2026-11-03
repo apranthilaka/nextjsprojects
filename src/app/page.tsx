@@ -13,7 +13,7 @@ export default function Home() {
         <div className="mb-2 text-lg font-medium">
           Projects Launching Soon!.
         </div>
-        ⌁<div className="">NextJS • Shadcn • Tailwind • Motion • Storybook</div>
+        ⌁<div className="">NextJS • Tailwind • Motion</div>
         <div className="mb-2">Shadcn • Storybook</div>
         <div className="text-sm mb-3">
           Status: Migrating component architecture
