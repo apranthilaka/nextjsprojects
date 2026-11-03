@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 
 export default function Home() {
   return (
-    <div className="bg-[url(/images/hero-sky.avif)] bg-no-repeat bg-cover text-white text-base overflow-hidden">
+    <div className="bg-[url(/images/hero-sky.avif)] bg-no-repeat bg-cover bg-center text-white text-base overflow-hidden">
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
