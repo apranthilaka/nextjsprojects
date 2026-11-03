@@ -71,7 +71,7 @@ export default function Home() {
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1, type: "spring" }}
+        transition={{ duration: 1, type: "spring", damping: 6 }}
         className="flex h-screen w-full flex-col items-center justify-center text-center "
       >
         <div className="mb-2 text-lg font-medium">
@@ -85,7 +85,7 @@ export default function Home() {
         <motion.a
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, type: "spring", delay: 0.5 }}
+          transition={{ duration: 1, type: "spring", delay: 0.5, damping: 4 }}
           className="delay-00 rounded-sm border border-neutral-300 px-3 py-1   transition-all hover:bg-wkhite/30"
           href="https://apranthilaka.com/"
         >
