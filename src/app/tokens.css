@@ -1,0 +1,22 @@
+/* app/tokens.css */
+:root {
+  /* primitives */
+  --color-white: #ffffff;
+  --color-gray-100: #f4f4f5;
+  --color-gray-900: #111113;
+  --color-gray-800: #1c1c1f;
+  --color-blue-500: #3b82f6;
+
+  /* semantic (light is the default) */
+  --bg-page: var(--color-white);
+  --bg-surface: var(--color-gray-100);
+  --text-primary: var(--color-gray-900);
+  --accent: var(--color-blue-500);
+}
+
+[data-theme="dark"] {
+  /* only redefine the semantic layer */
+  --bg-page: var(--color-gray-900);
+  --bg-surface: var(--color-gray-800);
+  --text-primary: var(--color-white);
+}
