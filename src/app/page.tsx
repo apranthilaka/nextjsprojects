@@ -14,7 +14,7 @@ export default function Home() {
           Projects Launching Soon!.
         </div>
         ⌁<div className="">NextJS • Tailwind • Motion</div>
-        <div className="mb-2">Shadcn • Storybook</div>
+        <div className="mb-2">Shadcn • Storybook</div>⌁
         <div className="text-sm mb-3">
           Status: Migrating component architecture
         </div>
@@ -22,7 +22,7 @@ export default function Home() {
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, type: "spring", delay: 0.6, damping: 4 }}
-          className="delay-00 rounded-sm border border-neutral-300 px-3 py-1   transition-all hover:bg-wkhite/30"
+          className="mt-2 delay-00 rounded-sm border border-neutral-300 px-5 py-1.5  transition-all hover:bg-wkhite/30"
           href="https://apranthilaka.com/"
         >
           Home
