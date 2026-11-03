@@ -8,6 +8,7 @@ export default function TestComp({ title, paragraph }: PropTypes) {
     <div className="border">
       <div className="font-bold">{title}</div>
       <div>{paragraph}</div>
+      <div></div>
     </div>
   );
 }
