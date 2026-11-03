@@ -68,7 +68,9 @@ export default function Home() {
 
     <div className="bg-[url(/images/hero-sky.avif)] bg-no-repeat bg-cover text-white text-base ">
       <div className="flex h-screen w-full flex-col items-center justify-center text-center ">
-        <div className="mb-2 text-lg font-medium">Projects Launching Soon.</div>
+        <div className="mb-2 text-lg font-medium">
+          Projects Launching Soon!.
+        </div>
         ⌁<div className="">NextJS • Shadcn • Tailwind • Motion • Storybook</div>
         <div className="mb-2">Shadcn • Storybook</div>
         <div className="text-sm mb-3">
