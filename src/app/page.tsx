@@ -20,9 +20,27 @@ export default function Home() {
         </div>
         <motion.a
           initial={{ opacity: 0, y: -10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, type: "spring", delay: 0.6, damping: 4 }}
-          className="mt-2 delay-00 rounded-sm border border-neutral-300 px-5 py-1.5  transition-all hover:bg-wkhite/30"
+          animate={{
+            opacity: 1,
+            y: 0,
+            transition: { type: "spring", delay: 0.6, damping: 8 }, // entrance only
+          }}
+          whileHover={{
+            scale: 1.05,
+            y: -3,
+            transition: { type: "spring", stiffness: 400, damping: 15 },
+          }}
+          whileTap={{
+            scale: 1,
+            y: 0,
+            transition: {
+              duration: 0.5,
+              type: "spring",
+              stiffness: 600,
+              damping: 20,
+            },
+          }}
+          className="mt-2 delay-00 rounded-sm border border-neutral-300 px-5 py-1.5  transition-all hover:bg-wkhite/30 bg-white/95 text-neutral-900"
           href="https://apranthilaka.com/"
         >
           Home
