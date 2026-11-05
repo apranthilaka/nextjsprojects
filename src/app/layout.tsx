@@ -27,18 +27,18 @@
 //     </html>
 //   );
 // }
-import type { Metadata } from 'next';
-import './globals.css';
+import type { Metadata } from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
-    title: 'apranthilaka -  Design Engineer ',
-    description: 'My Dev Projects',
+  title: "apranthilaka -  Design Engineer ",
+  description: "My Dev Projects",
 };
 
-export default function RootLayout({ children }: LayoutProps<'/'>) {
-    return (
-        <html lang="en">
-            <body>{children}</body>
-        </html>
-    );
+export default function RootLayout({ children }: LayoutProps<"/">) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
 }

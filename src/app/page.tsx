@@ -45,7 +45,11 @@ export default function Home() {
         >
           Home
         </motion.a>
-        {/* <a href="/componentgrid">Component Grid</a> */}
+        {/* <div>
+          <a className="border p-2 text-white" href="./components/project-one">
+            Component Project One
+          </a>
+        </div> */}
       </motion.div>
     </div>
   );
