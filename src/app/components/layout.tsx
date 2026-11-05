@@ -3,8 +3,8 @@ type PropTypes = {
 };
 
 let linkGroupOne = [
-  { title: "project One", url: "./project-one" },
-  { title: "project two", url: "./project-two" },
+  { title: "project One", url: "/components/project-one" },
+  { title: "project two", url: "/components/project-two" },
 ];
 
 export default function ComponentsLayout({ children }: PropTypes) {
