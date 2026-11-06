@@ -9,10 +9,10 @@ let linkGroupOne = [
 
 export default function ComponentsLayout({ children }: PropTypes) {
   return (
-    <div className="w-full h-screen border">
-      <div className=" border w-full h-12">Title bar</div>
-      <div className="flex flex-row w-full h-full text-neutral-500">
-        <div className="w-70 border-r border-neutral-300 p-2">
+    <div className="w-full h-screen border flex flex-col">
+      <div className=" border w-full h-12 shrink-0">Title bar</div>
+      <div className="flex flex-row w-full flex-1 min-h-0 text-neutral-500">
+        <div className="w-70 shrink-0 border-r border-neutral-300 p-2 overflow-auto">
           <ul>
             <div>
               <a href="/">Home</a>
@@ -26,7 +26,7 @@ export default function ComponentsLayout({ children }: PropTypes) {
             </li>
           </ul>
         </div>
-        <div className="w-full h-full border overflow-auto p-2">{children}</div>
+        <div className="flex-1 border overflow-auto p-2">{children}</div>
       </div>
     </div>
   );
