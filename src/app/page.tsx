@@ -1,4 +1,5 @@
 "use client";
+
 import { motion } from "motion/react";
 
 export default function Home() {
@@ -11,45 +12,69 @@ export default function Home() {
         className="flex h-screen w-full flex-col items-center justify-center text-center "
       >
         <div className="mb-2 text-lg font-medium">
-          Projects Launching Soon!.
+          Work In Progress, Projects are Launching Soon!.
         </div>
-        ⌁<div className="">NextJS • Tailwind • Motion</div>
-        <div className="mb-2">Shadcn • Storybook</div>⌁
+        ⌁<div className="">NextJS/React • Tailwind4 • Motion.dev</div>
+        <div className="mb-2">Shadcn • StoryBook</div>⌁
         <div className="text-sm mb-3">
           Status: Migrating component architecture
         </div>
-        <motion.a
-          initial={{ opacity: 0, y: -10 }}
-          animate={{
-            opacity: 1,
-            y: 0,
-            transition: { type: "spring", delay: 0.6, damping: 8 }, // entrance only
-          }}
-          whileHover={{
-            scale: 1.05,
-            y: -3,
-            transition: { type: "spring", stiffness: 400, damping: 15 },
-          }}
-          whileTap={{
-            scale: 1,
-            y: 0,
-            transition: {
-              duration: 0.5,
-              type: "spring",
-              stiffness: 600,
-              damping: 20,
-            },
-          }}
-          className="mt-2 delay-00 rounded-sm border border-neutral-300 px-5 py-1.5  transition-all hover:bg-wkhite/30 bg-white/95 text-neutral-900"
-          href="https://apranthilaka.com/"
-        >
-          Home
-        </motion.a>
-        {/* <div>
-          <a className="border p-2 text-white" href="./components/project-one">
-            Component Project One
-          </a>
-        </div> */}
+        <div className="flex flex-row gap-3">
+          <motion.a
+            initial={{ opacity: 0, y: -10 }}
+            animate={{
+              opacity: 1,
+              y: 0,
+              transition: { type: "spring", delay: 0.6, damping: 8 }, // entrance only
+            }}
+            whileHover={{
+              scale: 1.05,
+              y: -3,
+              transition: { type: "spring", stiffness: 400, damping: 15 },
+            }}
+            whileTap={{
+              scale: 1,
+              y: 0,
+              transition: {
+                duration: 0.5,
+                type: "spring",
+                stiffness: 600,
+                damping: 20,
+              },
+            }}
+            className="mt-2 delay-00 rounded-sm border border-neutral-300 px-5 py-1.5  transition-all hover:bg-wkhite/30 bg-white/95 text-neutral-900"
+            href="/workgroups/components/project-one"
+          >
+            Components
+          </motion.a>
+          <motion.a
+            initial={{ opacity: 0, y: -10 }}
+            animate={{
+              opacity: 1,
+              y: 0,
+              transition: { type: "spring", delay: 0.6, damping: 8 }, // entrance only
+            }}
+            whileHover={{
+              scale: 1.05,
+              y: -3,
+              transition: { type: "spring", stiffness: 400, damping: 15 },
+            }}
+            whileTap={{
+              scale: 1,
+              y: 0,
+              transition: {
+                duration: 0.5,
+                type: "spring",
+                stiffness: 600,
+                damping: 20,
+              },
+            }}
+            className="mt-2 delay-00 rounded-sm border border-neutral-300 px-5 py-1.5  transition-all hover:bg-wkhite/30 bg-white/95 text-neutral-900"
+            href="/workgroups/desktopuis/project-one"
+          >
+            Desktop Uis
+          </motion.a>
+        </div>
       </motion.div>
     </div>
   );
